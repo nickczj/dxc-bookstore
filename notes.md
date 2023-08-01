@@ -1,0 +1,1 @@
+- how to make author unique? what if there are 2 authors of same name? should we also use birthdate to ensure uniqueness? is that enough? for now, I will just assume an author's name is unique. 
