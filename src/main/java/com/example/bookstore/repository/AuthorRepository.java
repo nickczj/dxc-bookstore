@@ -7,4 +7,5 @@ import java.util.List;
 
 public interface AuthorRepository extends JpaRepository<Author, Long> {
   List<Author> findAllByNameIn(List<String> names);
+  Author findByName(String name);
 }
